@@ -1,19 +1,19 @@
 import math
 
-def main():
-    count = 1
+def primecheck():
+    number = 1
     
     while True:
         isprime = True
         
-        for x in range(2, int(math.sqrt(count) + 1)):
-            if count % x == 0: 
+        for x in range(2, int(math.sqrt(number) + 1)):
+            if number % x == 0: 
                 isprime = False
                 break
         
         if isprime=true:
-            print(count)
+            print(number)
         
-        count += 2
+        number += 2
        
-main()
+primecheck()
